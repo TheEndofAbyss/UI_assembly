@@ -1,17 +1,31 @@
 一、实验内容
+
 （1）Android ListView的用法.
+
 （2）创建自定义布局的AlertDialog.
+
 （3）使用XML定义菜单.
+
 （4）创建上下文操作模式(ActionMode)的上下文菜单.
+
 二、具体实验代码及效果截图
+
 总体架构：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401135223999.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMzA0MjY3,size_16,color_FFFFFF,t_70)
+
 我们通过一个按钮跳转界面Main实现跳转到具体某个实验小题：
+
 **效果截图：**
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401135528640.png)
+
 （1）
+
 主要代码：
+
 **test1.java：**
+
 public class test1 extends AppCompatActivity {
     private String[] names = new String[]{"Lion", "Tiger", "Monkey", "Dog", "Cat", "elephant"};
     private int[] image = new int[]{R.drawable.lion, R.drawable.tiger, R.drawable.monkey, R.drawable.dog, R.drawable.cat, R.drawable.elephant};
@@ -65,12 +79,18 @@ public class test1 extends AppCompatActivity {
         });
     }
 }
+
 **结果截图：**
 
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019040113555315.png)
+
 （2）
+
 **主要代码：**
+
 **.test2.java：**
+
 public class test2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,7 +104,9 @@ public class test2 extends AppCompatActivity {
         alertDialog.show();
     }
 }
+
 **test2xml1.xml：**
+
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -101,7 +123,9 @@ public class test2 extends AppCompatActivity {
         app:layout_constraintRight_toRightOf="parent"
         android:onClick="click"/>
 </android.support.constraint.ConstraintLayout>
-test2xml2：
+
+**test2xml2：**
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -123,11 +147,17 @@ test2xml2：
         android:maxLines="1"
         />
 </LinearLayout>
+
 **结果截图：**
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401140005898.png)
+
 （3）
+
 **主要代码：**
+
 **test3.java：**
+
 public class test3 extends AppCompatActivity {
     private TextView txt;
     @Override
@@ -169,14 +199,19 @@ public class test3 extends AppCompatActivity {
     }
 }
 
-
 **结果截图：**
+
 **颜色（以红色为例）：**
 
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401140324618.png)
+
 （4）
+
 **主要代码：**
+
 **test4.java:**
+
 public class test4 extends AppCompatActivity{
     private ListView listView;
     private SimpleAdapter simpleAdapter;
@@ -252,48 +287,10 @@ public class test4 extends AppCompatActivity{
         return list;
     }
 }
+
 **结果截图：**
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401140459966.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
