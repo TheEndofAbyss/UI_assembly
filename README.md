@@ -12,13 +12,13 @@
 
 总体架构：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401135223999.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMzA0MjY3,size_16,color_FFFFFF,t_70)
+![image](https://github.com/TheEndofAbyss/UI_assembly/blob/master/image/3.1.png)
 
 我们通过一个按钮跳转界面Main实现跳转到具体某个实验小题：
 
 **效果截图：**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401135528640.png)
+![image](https://github.com/TheEndofAbyss/UI_assembly/blob/master/image/3.2.png)
 
 （1）
 
@@ -135,7 +135,7 @@ public class test1 extends AppCompatActivity {
 **结果截图：**
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019040113555315.png)
+![image](https://github.com/TheEndofAbyss/UI_assembly/blob/master/image/3.3.png)
 
 （2）
 
@@ -251,7 +251,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 **结果截图：**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401140005898.png)
+![image](https://github.com/TheEndofAbyss/UI_assembly/blob/master/image/3.4.png)
 
 （3）
 
@@ -344,7 +344,7 @@ public class test3 extends AppCompatActivity {
 **颜色（以红色为例）：**
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401140324618.png)
+![image](https://github.com/TheEndofAbyss/UI_assembly/blob/master/image/3.5.png)
 
 （4）
 
@@ -486,7 +486,7 @@ public class test4 extends AppCompatActivity{
 
 **结果截图：**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401140459966.png)
+![image](https://github.com/TheEndofAbyss/UI_assembly/blob/master/image/3.6.png)
 
 
 
